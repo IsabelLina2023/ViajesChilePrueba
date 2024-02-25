@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Raleway", sans-serif;
+}
+.header {
+    background: url(../img/carousel1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .header .navbar {
+    background-color: transparent !important;
+  }
+  .header img {
+    height: 20px;
+  }
