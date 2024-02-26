@@ -31,7 +31,7 @@ body {
   height: 27px;
 }
 
-#mititulo {
+.mititulo {
   transition: font-size 0.5s;
   /* Agrega una transición suave para el cambio de tamaño */
   font-size: 20px;

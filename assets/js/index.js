@@ -23,7 +23,7 @@ $(document).ready(function () {
         alert("El correo fue enviado correctamente")
     })
 
-    $("#mititulo").on({
+    $(".mititulo").on({
         mouseover: function () {
             $(this).css("font-size", "30px", "font-weight-bold");
         },
