@@ -5,33 +5,51 @@ body {
   font-family: "Raleway", sans-serif;
   color: #ffff;
 }
+
 * {
   margin: 0;
   border: 0;
   padding: 0;
 }
-  .header .navbar {
-    background-color: transparent !important;
-  }
-  .header img {
-    height: 20px;
-  }
-  .mi-linea-horizontal {
-    width: 90%;
-    margin: 20px auto;
-    border: 1px solid #ffff;
+
+.header .navbar {
+  background-color: transparent !important;
 }
+
+.header img {
+  height: 20px;
+}
+
+.mi-linea-horizontal {
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid #ffff;
+}
+
 .wrapper {
   background-color: #02aefd;
   height: 27px;
 }
+
+#mititulo {
+  transition: font-size 0.5s;
+  /* Agrega una transición suave para el cambio de tamaño */
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 .card-body {
   background-color: #02aefd;
 }
+
 footer {
   background-color: #02aefd;
   height: 90px;
 }
+
 footer div {
   display: inline-block;
 }
