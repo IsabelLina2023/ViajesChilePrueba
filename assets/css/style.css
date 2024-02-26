@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
 
-*
-{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: "Raleway", sans-serif;
+body {
+  background-color: #0000;
+  font-family: "Raleway", sans-serif;
+  color: #ffff;
+}
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 .header {
     background: url(../img/carousel1.jpg) no-repeat center;
@@ -21,9 +24,16 @@
   .mi-linea-horizontal {
     width: 90%;
     margin: 20px auto;
-    border: 1px solid #000;
+    border: 1px solid #ffff;
 }
 .wrapper {
   background-color: #02aefd;
   height: 27px;
+}
+.card-body {
+  background-color: #02aefd;
+}
+footer {
+  background-color: #02aefd;
+  height: 90px;
 }
