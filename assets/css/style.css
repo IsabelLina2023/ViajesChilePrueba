@@ -18,3 +18,12 @@
   .header img {
     height: 20px;
   }
+  .mi-linea-horizontal {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #000;
+}
+.wrapper {
+  background-color: #02aefd;
+  height: 27px;
+}
